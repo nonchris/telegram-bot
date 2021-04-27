@@ -1,0 +1,2 @@
+SQLAlchemy~=1.4.11
+python-telegram-bot~=13.4.1
