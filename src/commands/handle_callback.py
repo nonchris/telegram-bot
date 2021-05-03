@@ -45,6 +45,7 @@ def handle_callback(update: Update, context: CallbackContext):
         send_new_message = True
 
     # TODO: handle commands with special signature here
+    # consider returning after function was called to prevent default execution
     # if key.startswith('complex_command'):
     #     command_switch['complex_command'](query, and, extra, content)
 
