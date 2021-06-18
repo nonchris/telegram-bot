@@ -13,4 +13,4 @@ def handle_message(update: Update, context: CallbackContext):
     :return:
     """
     # TODO: YOUR MESSAGE HANDLING HERE
-    utl.send_msg(update, context, "Hey!\n What can I do for you", kb.main_menu)
+    utl.send_msg(update, context, "Hey!\nWhat can I do for you", kb.main_menu)
