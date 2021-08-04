@@ -4,8 +4,7 @@ A functional, generic telegram bot template that includes a sqlite database and 
 ## setup
 `pip install -r requirements.txt`  
 `export API_KEY="your-key"`  
-`python3 main.py`  
-_Remember using a virtual environment!_
+`python3 main.py`
 
 ## features
 This bot does 'nothing' but is completely functional!  
@@ -20,9 +19,9 @@ _What is does:_
 * default inline keyboards
 * util wrapper `send_message`
 * `get_user_by_chat_id` for quick db access
-* converter of 'normal' text to escaped markdown text
+* converter of 'normal' text to escaped Markdown text
 * simple examples for normal and inline commands for better understanding
-* *TODO* Marks on all the main points to fill this project with functionality
+* *TODO Marks* on all the main points to fill this project with functionality
 
 *The only thing you need is to fill this structure with life!*
 
@@ -34,4 +33,4 @@ This repository contains code that was written by me across various bot-projects
 I collected the most useful and generic functions to save me some time when starting the next bot-project.  
 
 ### dependencies 
-This project is based on `python-telegram-bot` and `SQLAlchemy`
+This project requires `python-telegram-bot` and `SQLAlchemy`
