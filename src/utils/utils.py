@@ -62,5 +62,5 @@ def get_entries_by_chat_id(chat_id: int, database=db.Users) -> List[Union[db.Use
 # useful if help-text shall be sent from different places
 def get_help_text() -> str:
     """:return: central help text in markdown style"""
-    return prep_for_md("This is a _bot template_ by *nonchris* from github.com/nonchris/telegram-bot",
+    return prep_for_md("This is the place for *your custom help text*.\n\nThanks for using my template btw!\n_chris_",
                        ignore=['_', '*'])
